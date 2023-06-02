@@ -1,31 +1,31 @@
 .Jymmy {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
 }
 .col-1-5 {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
 }
 
 .col-2-5 {
-  grid-column-start: 3;
-  grid-column-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 9;
 }
 .col-3-5 {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 6;
 }
 .col-4-5 {
-  grid-column-start: 4;
-  grid-column-end: 6;
+  grid-column-start: 6;
+  grid-column-end: 9;
 }
 .col-5-5 {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 5;
 }
 .col-5-2 {
-  grid-column-start: 4;
-  grid-column-end: 6;
+  grid-column-start: 5;
+  grid-column-end: 9;
 }
 .box-item {
   margin: 0 !important;
@@ -49,12 +49,13 @@
 
 .info {
   display: grid;
-  grid-template-columns: auto auto auto;
-  margin-right: 15%;
+  grid-template-columns: auto auto auto 15%;
 }
 .wrap-footer {
   margin-left: 25%;
   margin-right: 25%;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 .wrap-container-1 {
   margin-left: 25%;
@@ -66,6 +67,20 @@
 }
 
 .divImg {
-  width: 500px;
-  height: 500px;
+  width: 50%;
+  height: auto;
+}
+.box image {
+  background-image: url(./images/16.jpg);
+}
+.f-right {
+  width: 50%;
+  height: auto;
+}
+.box image {
+  background-image: url(./images/14.jpg);
+}
+.divImg {
+  width: 50%;
+  height: auto;
 }
