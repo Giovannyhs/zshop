@@ -46,11 +46,26 @@
   left: 25%;
   justify-content: center;
 }
+
 .info {
   display: grid;
   grid-template-columns: auto auto auto;
+  margin-right: 15%;
 }
 .wrap-footer {
   margin-left: 25%;
   margin-right: 25%;
+}
+.wrap-container-1 {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.box-image {
+  background-image: url(./images/15.jpg);
+}
+
+.divImg {
+  width: 500px;
+  height: 500px;
 }
