@@ -84,3 +84,16 @@
   width: 50%;
   height: auto;
 }
+.wrap-box {
+  background: white;
+}
+.row-imput {
+  display: flex;
+  justify-content: space-between;
+}
+.box-1-3 {
+  width: 30%;
+}
+.button-sub {
+  display: flex;
+}
